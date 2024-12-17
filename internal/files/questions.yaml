@@ -1,581 +1,245 @@
-questions:
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question_id: 7
-    question_image: ""
-    question: "Which query retrieves the average price of all books?"
-    optionA: "A. SELECT AVG(Price) FROM Books"
-    optionB: "B. SELECT SUM(Price) FROM Books"
-    optionC: "C. SELECT COUNT(Price) FROM Books"
-    optionD: "D. SELECT * FROM Books WHERE Price > 10"
-    answer: ""
-    room: "A"
-    answered: false
-  - question: "A wizard is organizing magical scrolls with labels that are mixed up. The labels are given in the form of a string 'abracadabra'. The wizard needs to determine the number of times the letter 'a' appears in the string using the following snippet: print('abracadabra'.count('a'))"
-    question_id: 41
-    answer: ""
-    room: "A"
-    answered: false
-  - question: "In a quantum maze, every step has a 50% chance of taking you forward or backward. The maze's quantum state alters the step direction randomly. You got an algorithm to predict these fluctuations. It repeats the given pattern. What will be the direction you will face after 6 iterations? (Up for upward facing and Down for Downward facing) [initial, ~initial, ~initial, initial] Initial = 1;"
-    question_id: 42
-    answer: ""
-    room: "B"
-    answered: false
-  - question: "In a time warp, every year alternates between fast-forwarding 3 years or rewinding 2 years. Starting from 2024, after 10 iterations, where do you end up?"
-    question_id: 43
-    answer: ""
-    room: "C"
-    answered: false
-  - question: "A bridge collapses at Fibonacci intervals. After each Fibonacci step, one part of the bridge disappears. How many pieces remain after 5 steps, with bridge length as 100?"
-    question_id: 44
-    answer: ""
-    room: "D"
-    answered: false
-  - question: "In an alternate universe, clocks teleport between two times. A clock shows time in 24-hour format and teleports 3 hours forward every second tick. What will the final time be after 6 ticks, starting at 18:00?"
-    question_id: 45
-    answer: ""
-    room: "A"
-    answered: false
-  - question: "You are stuck in a teleportation loop where every second teleport takes you to a position twice as far from the origin otherwise 3 steps are added. After 4 teleports, where are you? (Position = 1)"
-    question_id: 46
-    answer: ""
-    room: "B"
-    answered: false
-  - question: "You're playing a game where two dice are rolled, and if both rolls are even numbers, you win. What are the odds of winning after 3 dice rolls? (Round off to 2 decimal places)"
-    question_id: 47
-    answer: ""
-    room: "C"
-    answered: false
-  - question: "You intercept a message encrypted using a Caesar Cipher, but the shift alternates between +3 and -2 for each letter. What is the decrypted message? (message = 'Kfmpc')"
-    question_id: 48
-    answer: ""
-    room: "D"
-    answered: false
-  - question: "A time warp machine teleports you forward by a prime number of years each time. What year will it be after teleporting 4 times from 2024?"
-    question_id: 49
-    answer: ""
-    room: "A"
-    answered: false
-  - question: "A lock opens only if a number is both prime and a palindrome. What will the lock code be after this code runs? Code = 101"
-    question_id: 50
-    answer: ""
-    room: "B"
-    answered: false
-  - question: "A hidden treasure chest unlocks when you input the sum of a geometric series with a multiplier of 3. What will the sum be after this code runs? (Total = 0)"
-    question_id: 51
-    answer: ""
-    room: "D"
-    answered: false
-  - question: "In the Timekeeper's Labyrinth, you find a grand, ancient clock adorned with three unique dials: ∏n, √n, and n/1.618. Apply the function to the number 6 (product from 1 to n), and then use the result as input for the next function and so on. Write in (op1,op2,op3) format."
-    question_id: 52
-    answer: ""
-    room: "A"
-    answered: false
-  - question: "Deep within the hidden vault of a forgotten civilization, a series of numbers are etched into a silver tablet. The inscription states: 'Among these, find the number that reveals its nature when reflected in a mirror of ancient truth. This reflection will unveil the path to the sacred chamber using the magic base of 6.' The numbers are: 54321, 67876, 12821, 10101."
-    question_id: 53
-    answer: ""
-    room: "B"
-    answered: false
-  - question: "A cryptic map shows coordinates in degrees, minutes, and seconds: 47°35'12'' N, 122°20'32'' W. The treasure is hidden where you go north till you change hemispheres and west till you come back in the same hemisphere. You are only allowed to traverse in integral multiples of the coordinates. Answer with rounding both numbers using the floor function and adding them."
-    question_id: 54
-    answer: ""
-    room: "C"
-    answered: false
-  - question: "You discover an alphanumeric code for an aristocrat's chamber: B5, C7, A2. Where A represents 1, B represents 2, etc. Adding the three numbers opens the aristocrat's chamber. What is the code for the chamber?"
-    question_id: 55
-    answer: ""
-    room: "D"
-    answered: false
-  - question: "You encounter a series of numbers in an old manuscript: 1, 3, 6, 10, 15. The manuscript hints that the sequence follows a specific pattern. Find the number at position 8."
-    question_id: 56
-    answer: ""
-    room: "A"
-    answered: false
-  - question: "You are given a matrix of numbers representing ASCII values. Your task is to extract the word hidden in the matrix using this process: 1. Traverse the matrix in a spiral order starting from the top left. 2. Convert each number in the spiral path to its corresponding ASCII character. 3. Find the hidden word. 4. The number of alphabets in the hidden word is the result [ 86, 73, 84 ],[ 32, 86, 69 ],[ 76, 76, 79 ],[ 82, 69, 33 ]"
-    question_id: 57
-    answer: ""
-    room: "B"
-    answered: false
-  - question: "You are given a 5x5 grid representing a maze, where each cell has a weight indicating the cost to move through that cell: | 1 | 3 | 1 | 2 | 1 |;| 2 | 1 | 2 | 1 | 3 |;| 3 | 2 | 1 | 3 | 1 |;| 1 | 2 | 3 | 1 | 2 |;| 1 | 1 | 1 | 2 | 1 |. What is the total cost for the shortest path (only translational motion)?"
-    question_id: 58
-    answer: ""
-    room: "C"
-    answered: false
-  - question: "Give output for the following pseudocode: Matrix = {'A': [1, 2, 3, 4], 'B': [10, 20, 30, 40]}. Element-wise comparisons: condition1 = matrix['A'] > 2; condition2 = matrix['B'] < 35. Array union operation (condition1 or condition2).sum()"
-    question_id: 59
-    answer: ""
-    room: "D"
-    answered: false
-  - question: "DICT={1: 'one(float)', 1: 'one (int)', True: 'one (bool)', '1': 'one (string)'}, print(DICT). Give the output of the following code. How many key values are there in the given output?"
-    question_id: 60
-    answer: ""
-    room: "A"
-    answered: false
-  - question: "A woman discovers a cryptic string, 'SurViVE,' at the crime scene. Believing it to be a passkey to a locked box, she suspects the box contains the killer's name. How can she decipher the string to unlock the box?(key to solving the mystery lies in its uppercase letters)(think like numbers) (convert the uppercase alphabets to numbers and sum them up)"
-    question_id: 61
-    answer: ""
-    room: "B"
-    answered: false
-  - question: "A detective investigating a high-profile heist finds a mysterious string, 'FindMEIFYouCan,' left behind by the elusive thief. She believes it's a passcode to a secure vault that holds the thief's identity. The detective suspects the key to unlocking the vault lies in the uppercase letters of the string. If she interprets these letters as numbers, possibly converting them into binary, how can she crack the code and capture the thief?"
-    question_id: 62
-    answer: ""
-    room: "C"
-    answered: false
-  - question: "A man finds himself trapped in a room with a ticking clock and a deadly poison coursing through his veins. In front of him is a safe containing the antidote, but it's locked. His only clue is a cryptic string on a nearby screen: 'SurViVE.' Desperately, he realizes that the key to unlocking the safe lies in the uppercase letters of the string. To save his life, he must think of these letters as numbers, perhaps converting them into binary. How can he decipher the code and retrieve the antidote in time?"
-    question_id: 63
-    answer: ""
-    room: "D"
-    answered: false
-  - question: "In the mystical town of Spellhaven, Grand Sorceress Elara discovers a prophecy referencing the number 7 in various magical contexts. Each interpretation of 7—seventh celestial sphere, prime magical constant, mystic power of unity, and Forgotten Hex spell system—remains 7 in hexadecimal. Summing these values, she finds 1C in hex. This result, 1C, is key to unlocking the spell needed to avert the looming catastrophe. The sorceress translates this into base 7 to understand more. What did she find?"
-    question_id: 64
-    answer: ""
-    room: "A"
-    answered: false
-  - question: "In a futuristic materials research lab, a team of engineers is developing a new composite material for spacecraft. To store information about the material's properties, they use Python to catalog its technical data. One of the engineers, Alex, writes the following line of code to store the material's strength and density: technical_data = {'strength': 115.5, 'density': 15.1}, print (technical_data). Later, another engineer, Maya, enters the lab and suggests a slightly different way to write the same information: technical_data = dict(strength=115.5, density=15.1), print(technical_data). How many elements are common in both technical data?"
-    question_id: 65
-    answer: ""
-    room: "B"
-    answered: false
-  - question: "You are given an integer n = 12. Perform the following operations: 1. Shift n to the left by 1 position using the binary left shift operator (<<). 2. Shift n to the right by 2 positions using the binary right shift operator (>>). Calculate and provide the smaller of the two results."
-    question_id: 66
-    answer: ""
-    room: "C"
-    answered: false
-  - question: "The sequence of triangle numbers is generated by adding the natural numbers. So the 7th triangle number would be 1+2+3+4+5+6+7=28. The first ten terms would be: 1,3,6,10,15,21,28,36,45,55. What will be the first number of this series to have over 700 divisors?"
-    question_id: 67
-    answer: ""
-    room: "D"
-    answered: false
-  - question: "The following iterative sequence is defined for the set of positive integers: n→n/2 (n is even) and n→3n+1 (n is odd). Using the rule above and starting with 13, we generate the following sequence: 13→40→20→10→5→16→8→4→2→1. It can be seen that this sequence (starting at 13 and finishing at 1) contains 10 terms. What is the smallest number that will contain 87 terms?"
-    question_id: 68
-    answer: ""
-    room: "A"
-    answered: false
-  - question: "2^15=32768 and the sum of its digits is 3+2+7+6+8=26. What is the sum of the digits of the number 2^566?"
-    question_id: 69
-    answer: ""
-    room: "B"
-    answered: false
-  - question: "You are given the following information, but you may prefer to do some research for yourself. 1 Jan 1900 was a Monday. Thirty days has September, April, June and November. All the rest have thirty-one, saving February alone, which has twenty-eight, rain or shine. And on leap years, twenty-nine. A leap year occurs on any year evenly divisible by 4, but not on a century unless it is divisible by 400. How many Sundays fell on the first of the month during the period 1 Jan 1901 to 31 Dec 1951?"
-    question_id: 70
-    answer: ""
-    room: "C"
-    answered: false
-  - question: "Find the last digit of the series 1^1+2^2+3^3+....+922^922."
-    question_id: 71
-    answer: ""
-    room: "D"
-    answered: false
-  - question: "Suppose Iris, Jana and Karim are playing a game. There are three green hats and two pink hats available. The players are blindfolded and each person is given a hat to wear such that when their blindfold is removed they can't see their own hat. All the blindfolds are then removed, so all the players can see each other. Iris says, 'I don't know what color hat I'm wearing.'. Jana then says, 'I don't know what color hat I'm wearing.' What color hat is Karim wearing? (G-Green, P-Pink)"
-    question_id: 72
-    answer: ""
-    room: "A"
-    answered: false
-  - question: "Euler's totient function is defined as the number of positive integers not exceeding n which are coprime with n. What is the value of the totient function of 77?"
-    question_id: 73
-    answer: ""
-    room: "B"
-    answered: false
-  - question: "Scientists are testing a medical treatment. They are checking if the treatment is effective (Works) and if it has no side effects (No SE). What is the probability that the treatment works or has no side effects?]. Results = [Works, No SE, Works and No SE], Probability	= [0.6, 0.3, 0.2]"
-    question_id: 74
-    answer: ""
-    room: "C"
-    answered: false
-  - question: "Exactly one of these chests contains gold, but only one of the four statements is true. Which chest must contain the gold? (Answer the Capital Letter corresponding to the chest). A - The gold is in here, B - The gold is in chest A or D, C - The gold is not in this chest, D - The gold is here."
-    question_id: 75
-    answer: ""
-    room: "D"
-    answered: false
-  - question: "Suppose the alternating pattern below continues for 998 sentences before ending with one unique sentence. 1) The next sentence is true. 2) The next sentence is false. 3) The next sentence is true. 4) The next sentence is false. ….997) The next sentence is true. 998) The next sentence is false. 999) Y≥5. What is the validity of line 999? (T=true, F=false)"
-    question_id: 76
-    answer: ""
-    room: "A"
-    answered: false
-  - question: "What is the maximum number of pieces you can divide a circular pizza into with 4 cuts? All cuts must be distinct straight lines from one point on the edge of the pizza to another point on the edge of the pizza, and you may not move the pizza slices."
-    question_id: 77
-    answer: ""
-    room: "B"
-    answered: false
-  - question: "y=|||x-10|+10|-10|+10. What is the smallest possible value of y?"
-    question_id: 78
-    answer: ""
-    room: "C"
-    answered: false
+
+- question_id: 1
+  question_image: "https://res.cloudinary.com/abhi-server/image/upload/v1734463403/Screenshot_2024-12-18_005312_fpuf1s.png"
+  question: "Which query retrieves books that sold more than 40,000 copies?"
+  option_A: "A. SELECT * FROM Sales WHERE Copies_Sold > 40000;"
+  option_B: "B. SELECT Book_Name FROM Sales WHERE Copies_Sold = 40000;"
+  option_C: "C. SELECT * FROM Sales WHERE Copies_Sold < 40000;"
+  option_D: "D. SELECT Book_Name FROM Sales;"
+  answer: ""
+  room: "A"
+
+- question_id: 2
+  question_image: "https://res.cloudinary.com/abhi-server/image/upload/v1734463440/Screenshot_2024-12-18_005350_aqlguz.png"
+  question: "Which query retrieves authors who are 'British'?"
+  option_A: "A. SELECT * FROM Authors WHERE Nationality = 'British';"
+  option_B: "B. SELECT Author_Name FROM Authors WHERE Nationality LIKE 'British';"
+  option_C: "C. SELECT * FROM Authors WHERE Nationality = 'American';"
+  option_D: "D. SELECT Nationality FROM Authors;"
+  answer: ""
+  room: "B"
+
+question_id: 3
+  question_image: "https://res.cloudinary.com/abhi-server/image/upload/v1734463271/Screenshot_2024-12-18_005101_pvtkyt.png"
+  question: "Which SQL query joins the Books table with the Authors table to display book names along with their authors?"
+  option_A: "A. SELECT Books.Book_Name, Authors.Author_Name FROM Books INNER JOIN Authors ON Books.Author_ID = Authors.Author_ID;"
+  option_B: "B. SELECT Book_Name FROM Books WHERE Author_ID = Authors.Author_ID;"
+  option_C: "C. SELECT * FROM Books, Authors WHERE Book_Name = Author_Name;"
+  option_D: "D. SELECT Author_Name FROM Authors WHERE Books.Author_ID = 2;"
+  answer: ""
+  room: "C"
+
+question_id: 4
+  question_image: "https://res.cloudinary.com/abhi-server/image/upload/v1734463308/Screenshot_2024-12-18_005138_d1jtif.png"
+  question: "Which query sums up all copies sold in the 'USA'?"
+  option_A: "A. SELECT SUM(Copies_Sold) FROM Sales WHERE Region = 'USA';"
+  option_B: "B. SELECT * FROM Sales WHERE Region = 'USA';"
+  option_C: "C. SELECT SUM(Region) FROM Sales WHERE Region = 'USA';"
+  option_D: "D. SELECT Region, Copies_Sold FROM Sales;"
+  answer: ""
+  room: "D"
+
+- question_id: 5
+  question_image: "https://res.cloudinary.com/abhi-server/image/upload/v1734463343/Screenshot_2024-12-18_005210_rw4ivf.png"
+  question: "Which query retrieves all books priced between $12 and $20?"
+  option_A: "A. SELECT * FROM Books WHERE Price BETWEEN 12 AND 20;"
+  option_B: "B. SELECT * FROM Books WHERE Price = 20;"
+  option_C: "C. SELECT Book_Name FROM Books WHERE Price > 20;"
+  option_D: "D. SELECT * FROM Books;"
+  answer: ""
+  room: "A"
+
+- question_id: 6
+  question: "Which SQL query calculates the total revenue generated for all books?"
+  option_A: "A. SELECT SUM(Price * Copies_Sold) FROM Books INNER JOIN Sales ON Books.Book_ID = Sales.Book_ID;"
+  option_B: "B. SELECT Price FROM Books WHERE Book_ID = Sales.Book_ID;"
+  option_C: "C. SELECT Book_Name FROM Sales WHERE Price = Copies_Sold;"
+  option_D: "D. SELECT COUNT(*) FROM Books;"
+  answer: ""
+  room: "B"
+  question_image: "https://res.cloudinary.com/abhi-server/image/upload/v1734463527/Screenshot_2024-12-18_005515_soptbg.png"
+
+- question_id: 7
+  question: "Which query retrieves the average price of all books?"
+  option_A: "A. SELECT AVG(Price) FROM Books;"
+  option_B: "B. SELECT SUM(Price) FROM Books;"
+  option_C: "C. SELECT COUNT(Price) FROM Books;"
+  option_D: "D. SELECT * FROM Books WHERE Price > 10;"
+  answer: ""
+  room: "C"
+  question_image: "https://res.cloudinary.com/abhi-server/image/upload/v1734463138/Screenshot_2024-12-18_004849_dpq3ls.png"
+
+
+- question_id: 8
+  question: "Which query counts the number of authors from the UK?"
+  option_A: "A. SELECT COUNT(*) FROM Authors WHERE Country = 'UK';"
+  option_B: "B. SELECT COUNT(Author_Name) FROM Authors;"
+  option_C: "C. SELECT Country FROM Authors;"
+  option_D: "D. SELECT * FROM Authors WHERE Country LIKE 'USA';"
+  answer: ""
+  room: "D"
+  question_image: "https://res.cloudinary.com/abhi-server/image/upload/v1734463096/Screenshot_2024-12-18_004806_vzdonx.png"
+
+- question_id: 9
+  question: "Which query retrieves all books written by 'Agatha Christie'?"
+  option_A: "A. SELECT * FROM Books WHERE Author_ID = 11;"
+  option_B: "B. SELECT Title FROM Books JOIN Authors ON Books.Author_ID = Authors.Author_ID WHERE Author_Name = 'Agatha Christie';"
+  option_C: "C. SELECT Author_ID FROM Authors;"
+  option_D: "D. SELECT Title FROM Books WHERE Author_Name = 'Agatha Christie';"
+  answer: ""
+  room: "A"
+  question_image: "https://res.cloudinary.com/abhi-server/image/upload/v1734463042/Screenshot_2024-12-18_004712_vmrljx.png"
+
+- question_id: 10
+  question: "Which query returns the total number of books in each genre?"
+  option_A: "A. SELECT Genre, COUNT(*) FROM Books GROUP BY Genre;"
+  option_B: "B. SELECT Book_Name FROM Books WHERE Genre = 'Fiction';"
+  option_C: "C. SELECT COUNT(*) FROM Books;"
+  option_D: "D. SELECT Genre FROM Books;"
+  answer: ""
+  room: "B"
+  question_image: "https://res.cloudinary.com/abhi-server/image/upload/v1734462985/Screenshot_2024-12-18_004614_ebo56j.png"
+
+- question_id: 11
+  question: "Which query retrieves authors from the United States?"
+  option_A: "A. SELECT * FROM Authors WHERE Country = 'USA';"
+  option_B: "B. SELECT Author_Name FROM Authors WHERE Country = 'UK';"
+  option_C: "C. SELECT * FROM Authors WHERE Country = 'US';"
+  option_D: "D. SELECT Country FROM Authors;"
+  answer: ""
+  room: "C"
+  question_image: "https://res.cloudinary.com/abhi-server/image/upload/v1734462938/Screenshot_2024-12-18_004525_cmppm0.png"
+
+- question_id: 12
+  question: "Which query retrieves books with a stock greater than 50 and a price less than 20?"
+  option_A: "A. SELECT * FROM Books WHERE Price < 20 AND Stock > 50;"
+  option_B: "B. SELECT * FROM Books WHERE Price = 20 OR Stock > 50;"
+  option_C: "C. SELECT Book_Name FROM Books WHERE Price > 20 AND Stock < 50;"
+  option_D: "D. SELECT * FROM Books WHERE Stock > 100;"
+  answer: ""
+  room: "D"
+  question_image: "https://res.cloudinary.com/abhi-server/image/upload/v1734462899/Screenshot_2024-12-18_004447_fj48cb.png"
+
+- question_id: 13
+  question: "Which query retrieves authors from the UK who have won at least 2 awards?"
+  option_A: "A. SELECT Author_Name FROM Authors WHERE Country = 'UK' AND Awards_Won >= 2;"
+  option_B: "B. SELECT * FROM Authors WHERE Country LIKE 'USA' AND Awards_Won >= 2;"
+  option_C: "C. SELECT Author_Name FROM Authors WHERE Awards_Won = 2;"
+  option_D: "D. SELECT * FROM Authors WHERE Country = 'UK';"
+  answer: ""
+  room: "A"
+  question_image: "https://res.cloudinary.com/abhi-server/image/upload/v1734462862/Screenshot_2024-12-18_004406_z50wr9.png"
+
+- question_id: 14
+  question: "Which query retrieves all books with a rating greater than 4.7?"
+  option_A: "A. SELECT * FROM Books WHERE Rating > 4.7;"
+  option_B: "B. SELECT Book_Name FROM Books WHERE Rating >= 4.7;"
+  option_C: "C. SELECT * FROM Books WHERE Rating < 4.7;"
+  option_D: "D. SELECT * FROM Books;"
+  answer: ""
+  room: "B"
+  question_image: "https://res.cloudinary.com/abhi-server/image/upload/v1734462651/Screenshot_2024-12-18_004035_thuxby.png"
+
+- question_id: 15
+  question: "Which query retrieves books that cost less than 15 and have a stock greater than 50?"
+  option_A: "A. SELECT * FROM Books WHERE Price < 15 AND Stock > 50;"
+  option_B: "B. SELECT Book_Name FROM Books WHERE Price > 15 AND Stock < 50;"
+  option_C: "C. SELECT * FROM Books WHERE Price = 15;"
+  option_D: "D. SELECT * FROM Books WHERE Stock > 30;"
+  answer: ""
+  room: "C"
+  question_image: "https://res.cloudinary.com/abhi-server/image/upload/v1734462613/Screenshot_2024-12-18_004003_gy6pzm.png"
+
+
+- question_id: 16
+  question: "Which query retrieves authors from the USA?"
+  option_A: "A. SELECT Author_Name FROM Authors WHERE Country = 'USA';"
+  option_B: "B. SELECT * FROM Authors WHERE Country = 'UK';"
+  option_C: "C. SELECT * FROM Authors WHERE Awards_Won > 1;"
+  option_D: "D. SELECT Country FROM Authors WHERE Author_Name = 'Harper Lee';"
+  answer: ""
+  room: "D"
+  question_image: "https://res.cloudinary.com/abhi-server/image/upload/v1734462575/Screenshot_2024-12-18_003925_uqfkhu.png"
+
+- question_id: 17
+  question: "Which query retrieves books published after 1980 and priced less than 20?"
+  option_A: "A. SELECT * FROM Books WHERE Publish_Year > 1980 AND Price < 20;"
+  option_B: "B. SELECT * FROM Books WHERE Publish_Year < 1980 AND Price > 20;"
+  option_C: "C. SELECT Book_Name FROM Books WHERE Publish_Year = 1980;"
+  option_D: "D. SELECT * FROM Books;"
+  answer: ""
+  room: "A"
+  question_image: "https://res.cloudinary.com/abhi-server/image/upload/v1734462535/Screenshot_2024-12-18_003839_i5wa44.png"
+
+- question_id: 18
+  question: "Which query retrieves authors born after 1950?"
+  option_A: "A. SELECT Author_Name FROM Authors WHERE DOB > '1950-01-01';"
+  option_B: "B. SELECT * FROM Authors WHERE DOB < '1950-01-01';"
+  option_C: "C. SELECT Author_Name FROM Authors WHERE Country = 'USA';"
+  option_D: "D. SELECT * FROM Authors;"
+  answer: ""
+  room: "B"
+  question_image: "https://res.cloudinary.com/abhi-server/image/upload/v1734461869/Screenshot_2024-12-18_002734_xsnsly.png"
+
+- question_id: 19
+  question: "Which query retrieves all Fantasy books priced under 20?"
+  option_A: "A. SELECT * FROM Books WHERE Genre = 'Fantasy' AND Price < 20;"
+  option_B: "B. SELECT Book_Name FROM Books WHERE Genre = 'Fiction';"
+  option_C: "C. SELECT * FROM Books WHERE Price > 20;"
+  option_D: "D. SELECT * FROM Books;"
+  answer: ""
+  room: "C"
+  question_image: "https://res.cloudinary.com/abhi-server/image/upload/v1734462476/Screenshot_2024-12-18_003739_j1atgj.png"
+
+
+- question_id: 20
+  question: "Which SQL query retrieves the Book Name and Copies Sold for books in the 'Fiction' genre with sales greater than 2,000,000?"
+  option_A: "A. SELECT s.Book_Name, s.Copies_Sold FROM Sales s INNER JOIN Books b ON s.Book_Name = b.Book_Name WHERE b.Genre = 'Fiction' AND s.Copies_Sold > 2000000;"
+  option_B: "B. SELECT b.Book_Name, b.Genre FROM Books b WHERE b.Genre = 'Fiction';"
+  option_C: "C. SELECT * FROM Sales WHERE Region = 'USA';"
+  option_D: "D. SELECT Book_Name, Copies_Sold FROM Sales WHERE Copies_Sold < 2000000;"
+  answer: ""
+  room: "D"
+  question_image: "https://res.cloudinary.com/abhi-server/image/upload/v1734462423/Screenshot_2024-12-18_003650_bxpk6x.png"
+
+
+- question_id: 21
+  question: "Which query calculates the total revenue (Price * Copies Sold) for all books?"
+  option_A: "A. SELECT Book_Name, SUM(Price * Copies_Sold) AS Revenue FROM Books GROUP BY Book_Name;"
+  option_B: "B. SELECT Book_Name, Price * Copies_Sold AS Revenue FROM Books;"
+  option_C: "C. SELECT SUM(Price) FROM Books WHERE Copies_Sold > 0;"
+  option_D: "D. SELECT Price, SUM(Copies_Sold) FROM Books;"
+  answer: ""
+  room: "A"
+  question_image: "https://res.cloudinary.com/abhi-server/image/upload/v1734462367/Screenshot_2024-12-18_003553_lvxo9o.png"
+
+- question_id: 22
+  question: "Which query retrieves the names of authors who have won more than 1 award along with their books?"
+  option_A: "A. SELECT a.Author_Name, b.Book_Name FROM Authors a INNER JOIN Books b ON a.Author_Name = b.Author_Name WHERE a.Awards_Won > 1;"
+  option_B: "B. SELECT Book_Name FROM Books WHERE Publish_Year > 1990;"
+  option_C: "C. SELECT Author_Name FROM Authors WHERE Awards_Won = 1;"
+  option_D: "D. SELECT * FROM Books WHERE Author_Name = 'Harper Lee';"
+  answer: ""
+  room: "B"
+  question_image: "https://res.cloudinary.com/abhi-server/image/upload/v1734462329/Screenshot_2024-12-18_003519_rmvfr9.png"
+
+- question_id: 23
+  question: "Which query retrieves the region with the highest total Copies Sold?"
+  option_A: "A. SELECT Region, SUM(Copies_Sold) AS Total_Sales FROM Sales GROUP BY Region ORDER BY Total_Sales DESC LIMIT 1;"
+  option_B: "B. SELECT * FROM Sales WHERE Copies_Sold = MAX(Copies_Sold);"
+  option_C: "C. SELECT Region FROM Sales GROUP BY Region HAVING SUM(Copies_Sold) > 3000000;"
+  option_D: "D. SELECT Region, Copies_Sold FROM Sales WHERE Region = 'Worldwide';"
+  answer: ""
+  room: "C"
+  question_image: "https://res.cloudinary.com/abhi-server/image/upload/v1734462155/Screenshot_2024-12-18_003142_u0f16w.png"
+
+
+- question_id: 24
+  question: "Which query retrieves the average price of all books grouped by genre?"
+  option_A: "A. SELECT Genre, AVG(Price) AS Average_Price FROM Books GROUP BY Genre;"
+  option_B: "B. SELECT * FROM Books WHERE Price > (SELECT AVG(Price) FROM Books);"
+  option_C: "C. SELECT Genre, SUM(Price) FROM Books;"
+  option_D: "D. SELECT AVG(Price) FROM Books WHERE Genre = 'Fiction';"
+  answer: ""
+  room: "D"
+  question_image: "https://res.cloudinary.com/abhi-server/image/upload/v1734462050/Screenshot_2024-12-18_003025_exocrv.png"
