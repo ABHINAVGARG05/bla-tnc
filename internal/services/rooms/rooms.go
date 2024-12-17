@@ -182,21 +182,21 @@ func (rc *RoomControllerStore) CheckUnansweredQuestionsAndUpdateScore(ctx contex
 		return fmt.Errorf("unknown room: %s", roomEntered)
 	}
 
-	unansweredCount := 0
+	answeredCount := 0
 	for _, question := range questions {
-		if question.Answered == "false" {
-			unansweredCount++
+		if question.Answered == "true" {
+			answeredCount++
 		}
 	}
 
-	scoreDeduction := unansweredCount * 10
+	scoreDeduction := answeredCount * 100
 
-	_, err = rc.usersCollection.UpdateOne(ctx, bson.M{"_id": userID}, bson.M{"$inc": bson.M{"score": -scoreDeduction}})
+	_, err = rc.usersCollection.UpdateOne(ctx, bson.M{"_id": userID}, bson.M{"$inc": bson.M{"score": scoreDeduction}})
 	if err != nil {
 		return fmt.Errorf("failed to update user's score: %v", err)
 	}
 
-	fmt.Printf("User %s has %d unanswered questions in room %s. Score deducted by %d.\n", userID.Hex(), unansweredCount, roomEntered, scoreDeduction)
+	fmt.Printf("User %s has %d unanswered questions in room %s. Score deducted by %d.\n", userID.Hex(), answeredCount, roomEntered, scoreDeduction)
 
 	return nil
 }

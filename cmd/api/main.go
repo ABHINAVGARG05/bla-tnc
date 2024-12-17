@@ -27,7 +27,7 @@ func main() {
 
 	mongoURI := os.Getenv("MONGO_URI")
 	dbName := os.Getenv("MONGO_DBNAME")
-
+	log.Println(mongoURI)
 	client, db := db.ConnectMongoDB(mongoURI, dbName)
 	if client == nil || db == nil {
 		log.Fatal("Failed to connect to MongoDB")

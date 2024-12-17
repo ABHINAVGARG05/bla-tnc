@@ -6,6 +6,7 @@ import (
 	"C2S/internal/types"
 	"C2S/internal/utils"
 	"fmt"
+	"log"
 
 	"github.com/go-playground/validator/v10"
 	"github.com/gofiber/fiber/v2"
@@ -17,6 +18,7 @@ func (h *Handler) HandleRegister(c *fiber.Ctx) error{
 	var payload types.RegisterUserPayload
 
 	if err := utils.ParseJSON(c, &payload); err != nil {
+		log.Println("hi")
 		return utils.WriteError(c, fiber.StatusBadRequest, err)
 		
 	}

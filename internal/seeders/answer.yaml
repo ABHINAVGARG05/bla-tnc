@@ -7,7 +7,7 @@ questions:
   - question: "The criminal intercepted a message that was encoded. Your mission is to restore the message and reveal the true content to continue. Eg - Input : 19 21 19 16 5 3 20 "
     question_id: 2
     answer: "suspect"
-    room: "B"
+    room: "A"
     answered: false
   - question: "In the investigation, you found a mysterious code left by the culprit. The code seems to have a hidden pattern. You suspect that the code could reveal a secret message if it reads the same backward as it does forward. Verify the same. (Output 1 if true else 0). Input : deified"
     question_id: 3

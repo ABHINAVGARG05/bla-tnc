@@ -22,6 +22,8 @@ func ConnectMongoDB(uri string,dbName string) (*mongo.Client, *mongo.Database){
 		log.Fatalf("Failed to connect to MongoDB: %v", err)
 	}
 	db := client.Database(dbName)
+	log.Println(db,uri,dbName)
+	log.Println("hi")
 	log.Println("Connected to MongoDB!")
 	return client,db
 }
