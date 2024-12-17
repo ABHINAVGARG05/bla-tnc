@@ -1,201 +1,393 @@
 questions:
-  - question: "The criminal intercepted a message that was encoded. Your mission is to restore the message and reveal the true content to continue. Eg - Input : 106 101 119 101 108 108 101 114 121 "
-    question_id: 1
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A SELECT AVG(Price) FROM Books"
+    optionB: "B SELECT SUM(Price) FROM Books"
+    optionC: "C SELECT COUNT(Price) FROM Books"
+    optionD: "D SELECT * FROM Books WHERE Price > 10"
     answer: ""
     room: "A"
     answered: false
-  - question: "The criminal intercepted a message that was encoded. Your mission is to restore the message and reveal the true content to continue. Eg - Input : 19 21 19 16 5 3 20 "
-    question_id: 2
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
     answer: ""
     room: "A"
     answered: false
-  - question: "In the investigation, you found a mysterious code left by the culprit. The code seems to have a hidden pattern. You suspect that the code could reveal a secret message if it reads the same backward as it does forward. Verify the same. (Output 1 if true else 0). Input : deified"
-    question_id: 3
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
     answer: ""
     room: "A"
     answered: false
-  - question: "During the investigation, You encountered a binary pattern that needs to be matched to a known pattern.The suspects also have a similar binary pattern. Check if the found binary code matches with any of the given suspects. Suspects :  0011 1010 1101  1101 0010 0101  1001 1010 1111, Found Pattern : 1101 0010 0101"
-    question_id: 5
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
     answer: ""
     room: "A"
     answered: false
-  - question: "Find the sum of all products whose multiplicand/multiplier/product identity can be written as a 1 through 9 using each only once. (ex: 39 x 186 = 7254)"
-    question_id: 6
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
     answer: ""
     room: "A"
     answered: false
-  - question: "A woman discovers a cryptic string, tRAx bJlM, at the crime scene. Believing it to be a passkey to a locked box, she suspects the box contains the killer's name. How can she decipher the string to unlock the box?(key to solving the mystery lies in its uppercase letters, think like numbers). Hint :- Take each UpperCase value to 1 and LowerCase value to 0 and find the binary number "
-    question_id: 7
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
     answer: ""
     room: "A"
     answered: false
-  - question: "A cryptic string COdeToSurV1ve is left behind after a heist. To uncover the mastermind's identity,Convert each uppercase and lowercase letter in the string to its corresponding `hexadecimal value ,Sum the hexadecimal values together to obtain a single number,Multiply the sum by 2 and add 388,the resulting number satisfies the property where the sum of each digit raised to the power of the number of digits equals the number itself, it's the special number. This special number is the mastermind's id ? What is the ID ?(if the hex value is of 5A , 5B , 5C , 5D ,5E ,5F then leave them ) "
-    question_id: 8
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
     answer: ""
     room: "A"
     answered: false
-  - question: "In the heart of the Lost Temple lies a cryptic cipher that only the perceptive can unlock. The ancient codebreakers left a clue with their cipher: “Happiness can be quantified. To uncover the “Key of Happiness, you must first focus on the hidden string “HappINess. Convert this string into binary values(uppercase as 1 and lowercase as 0)  and derive the key from its binary representation and decipher the happiness key."
-    question_id: 9
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
     answer: ""
     room: "A"
     answered: false
-  - question: "In a mysterious digital vault, there lies a set of enchanted boxes. Each box is marked with a unique symbol, and the vault keeper has the power to store a hidden treasure within them. One day, the keeper decided to use two different keys to access these boxes. The first key bore the symbol b, and the second key bore the symbol c. The keeper placed a treasure valued at 687 in the box associated with key b. But before sealing the vault, the keeper changed their mind and placed a treasure valued at 834 in the box associated with key c. Now, the vault is sealed, and the only way to retrieve the treasure is by using one of the keys.If you were to use the key marked with the symbol b to unlock the vault, what treasure would you find inside?"
-    question_id: 10
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
     answer: ""
     room: "A"
     answered: false
-  - question: |
-      A secret message, a hidden code,A puzzle to solve, a heavy load.A string of letters, a cryptic clue,Each letter holds a value true.
-      Convert each letter to its numeric worth,Add the values, find their sum from birth.The sum reveals a number, pure and bright,A perfect number, a guiding light.What is the number, the secret key,That unlocks the puzzle, sets us free? solve it (the cryptic string comprises the first letter after every , or . .
-      Convert the lowercase letters and uppercase letters  to their ascii value and solve. "
-    question_id: 11
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
     answer: ""
-    room: "B"
+    room: "A"
     answered: false
-  - question: "You found a modified code. The original code and the modified version differ in several bits. To uncover the original message hidden within the code, you need to find the total number of flips. Input : 65 Output : 98"
-    question_id: 12
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
     answer: ""
-    room: "B"
+    room: "A"
     answered: false
-  - question: ". A key piece of evidence was encoded in hexadecimal, but one of the bytes has gone missing and it is not in the correct order. The remaining bytes spell out a word, but you need to find the missing byte and rearrange the letters to find the evidence. Input = 68636E??7277"
-    question_id: 13
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
     answer: ""
-    room: "B"
+    room: "A"
     answered: false
-  - question: "An alien on Mars is celebrating its 11th birthday. If its age was 11011 on its 11th birthday, 9009 on its 10th birthday, and 7007 on its 9th birthday, what will be the sum of its ages when it celebrates its 18th birthday?"
-    question_id: 14
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
     answer: ""
-    room: "B"
+    room: "A"
     answered: false
-  - question: " What is 1/2 velvet , 3/8 lordship , and 1/8 elephant?"
-    question_id: 15
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
     answer: ""
-    room: "B"
+    room: "A"
     answered: false
-  - question: " What will be the last digit of 3.6e+47! (Factorial)?"
-    question_id: 16
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
     answer: ""
-    room: "B"
+    room: "A"
     answered: false
-  - question: "You are in a hotel room and you forgot the key to the door lock, but you remember your friends telling you that its first 2 even powers of 2 followed by first 2 odd powers of 3. What is the code?"
-    question_id: 17
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
     answer: ""
-    room: "B"
+    room: "A"
     answered: false
-  - question: "An Armstrong Number is a number whose sum of digits raised to the power of the number of digits equal to the number itself. If it is known that the first of this kind of number exists after the number 150. What is the first Armstrong number?"
-    question_id: 18
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
     answer: ""
-    room: "B"
+    room: "A"
     answered: false
-  - question: " Given an integer 10, find the highest product when 10 is broken down into a sum of 3 numbers."
-    question_id: 19
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
     answer: ""
-    room: "B"
+    room: "A"
     answered: false
-  - question: "A Stack is a coding construct which follows the LIFO principle (the element going in the last is the first one to come out). The pop function removes the top most element in the stack. If the following sequence is entered then what will be the fourth element to be outputted? 12 43 22 55 47 pop 65 pop pop 78 98 12 11 pop 12 43 90 pop pop 81"
-    question_id: 20
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
     answer: ""
-    room: "B"
+    room: "A"
     answered: false
-  - question: "A pointer is said to point to the location at which the value of a variable is stored. Following this diagram what is the location of the value 39? a = 32; *a = 97; **a = 39; ***a = 12; ****a = 2;"
-    question_id: 21
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
     answer: ""
-    room: "C"
+    room: "A"
     answered: false
-  - question: "An array that initially had 14 elements, was modified to not consider positions marked 0. What will be the position of the middle element? [0,3,4,66,73,88,0,12,0,0,0,6,54,87]"
-    question_id: 22
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
     answer: ""
-    room: "C"
+    room: "A"
     answered: false
-  - question: "A fibonacci series is a recursive series where the next element is the sum of the previous two elements with the first two elements being 0 and 1. Now Arun started the series with 2 and 10. What is the 10th element of this Series?"
-    question_id: 23
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
     answer: ""
-    room: "C"
+    room: "A"
     answered: false
-  - question: "What will be the 5th element after the following is sorted according to ascii values? A b 4 f D 5 T N k n d"
-    question_id: 24
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
     answer: ""
-    room: "C"
+    room: "A"
     answered: false
-  - question: "If HEE+SHE= GIHE, and we assume (I =2), where the alphabets take the values from (0-9). Find the value of (S+H+E)? "
-    question_id: 25
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
     answer: ""
-    room: "C"
+    room: "A"
     answered: false
-  - question: "While Traversing through the desert you find a temple with an inscription on one of its walls. You think if this room is solved it can lead to an ancient tomb. You see the wall opposite this having a Da Vinci Code cryptex with 7 symbols in 4 columns which can be shifted horizontally.You need ₲ in every column for the each column having the following series: ₲ : ₲௹﷼₵૱₾, The Cylinder initially have the following inscriptions: ૱₵₾﷼ Minimum number of shifts needed to be done to open the tomb?"
-    question_id: 26
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
     answer: ""
-    room: "C"
+    room: "A"
     answered: false
-  - question: "There are five different buildings. Following are the clues given: 1) A to E in a row. 2) A is to the right of B. 3) E is to the left of C and right of A. 4) B is to the right of D. How many buildings are there between D and C?"
-    question_id: 27
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
     answer: ""
-    room: "C"
+    room: "A"
     answered: false
-  - question: "Given an array of N integers where each value represents the number of chocolates in a packet. Each packet can have a variable number of chocolates. There are m students, the task is to distribute chocolate packets such that: Each student gets one packet. The difference between the number of chocolates in the packet with maximum chocolates and the packet with minimum chocolates is minimum. What is the minimum difference for the following input? Array: {7, 3, 2, 4, 9, 12, 56}, No. of Students = 3"
-    question_id: 28
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
     answer: ""
-    room: "C"
+    room: "A"
     answered: false
-  - question: "Anagram is a word or phrase that is made by arranging the letters of another word or phrase in a different order. Given the Input: [eat,tea,tan,ate,nat,bat,eta]. The number of words in the largest group of anagrams from the input set?"
-    question_id: 29
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
     answer: ""
-    room: "C"
+    room: "A"
     answered: false
-  - question: "You are a cashier who is asked to give exact change back to the shopper. You have the following coins left in your register: [1,2,2,2,2,5,5,5,10,25]. You are asked to give the shopper back $43 back to the shopper using the least number of coins. How many coins did you give to the shopper?"
-    question_id: 30
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
     answer: ""
-    room: "C"
+    room: "A"
     answered: false
-  - question: "You are registering for extra courses in FFCS. You have the option of four Courses A,B,C,D. You have 4 semesters to complete all four courses. Following is a list of courses along with their prerequisites: B:A, C:A, D:B, D:C. In how many ways can the courses be taken?"
-    question_id: 31
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
     answer: ""
-    room: "D"
+    room: "A"
     answered: false
-  - question: "You are climbing a staircase with n stairs. You can either climb one stair or climb two stairs at a time. How many distinct ways are there to climb a staircase with 6 steps (permutations matter)?"
-    question_id: 32
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
     answer: ""
-    room: "D"
+    room: "A"
     answered: false
-  - question: "You are given three dice each having six faces numbered from 1 to 6 according to a regular die. What lowest combination can you get for 12? (Ex: 3: Answer: 111)"
-    question_id: 33
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
     answer: ""
-    room: "D"
+    room: "A"
     answered: false
-  - question: "a, b, *c, d = [1, 2, 3, 4, 5, 6, 7], print(c). What will be the output of the given code ?"
-    question_id: 34
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
     answer: ""
-    room: "D"
+    room: "A"
     answered: false
-  - question: "In the heart of the enigmatic city of Codora, whispers spread of a hidden riddle left behind by an ancient code master. Many had tried to solve it, but none had succeeded—until a curious programmer named Alice stumbled upon a peculiar string of symbols in a forgotten corner of the Codora Codex. The riddle was presented as a simple yet mysterious challenge: tuples = (a,b,c,d); X, *y = tuples, print(y). Help Alice solve the mysterious challenge by finding  the output.  Give the output as the number of elements in y."
-    question_id: 35
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
     answer: ""
-    room: "D"
+    room: "A"
     answered: false
-  - question: "How many Lychrel numbers are there below 12544? (A Lychrel number is a number that never forms a palindrome through the iterate-and-reverse process.)"
-    question_id: 36
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
     answer: ""
-    room: "D"
+    room: "A"
     answered: false
-  - question: "In the shadowy world of encrypted messages, Agent Reed was on the trail of a dangerous hacker known as 'The Cubist.' The hacker had left a series of puzzles that, when solved, would reveal the location of their next move. Reed stumbled upon one particularly strange riddle embedded in a piece of code. It was said that the solution to this puzzle would unlock the first part of the hacker's secret: Agent Reed understood that the code was comparing two values. Can you uncover the hacker's trick and determine what the value of x truly is? x = bin ((3**9) -1) == '{}'.format(bin((3**9)-1)), print(x)"
-    question_id: 37
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
     answer: ""
-    room: "D"
+    room: "A"
     answered: false
-  - question: "A doctor is working with a prescription system that uses a coding snippet to update medication labels. The current prescription label is 'abcefd'. To ensure the patient receives the correct medicine, the doctor needs to replace the segment 'cd' with '12'. In Python, the doctor uses the following code to update the label: print('abcefd'.replace('cd', '12')). What will the updated prescription label be after running this code?"
-    question_id: 38
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
     answer: ""
-    room: "D"
+    room: "A"
     answered: false
-  - question: 'In a small town, there was a wise old pharmacist who had a special way of organizing medicine labels. To ensure he could quickly find the right label, he used a special method to sort them based on their characters. One day, he received a label with the string "abCD123" and needed to determine the smallest character in the sequence to sort it properly (according to ASCII notation). What was the smallest character the pharmacist found in the label after running this code? '
-    question_id: 39
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
     answer: ""
-    room: "D"
+    room: "A"
     answered: false
-  - question: "A pharmacist needs to replace a part of a prescription label 'liverA32' to make it correct. The new segment '101' needs to replace 'A32' using this snippet: print('liverA32'.replace('A32', '101')) What will be the updated prescription label?"
-    question_id: 40
+  - question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
     answer: ""
-    room: "D"
+    room: "A"
     answered: false
   - question: "A wizard is organizing magical scrolls with labels that are mixed up. The labels are given in the form of a string 'abracadabra'. The wizard needs to determine the number of times the letter 'a' appears in the string using the following snippet: print('abracadabra'.count('a'))"
     question_id: 41

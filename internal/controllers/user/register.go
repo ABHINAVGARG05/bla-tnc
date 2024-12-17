@@ -18,9 +18,8 @@ func (h *Handler) HandleRegister(c *fiber.Ctx) error{
 	var payload types.RegisterUserPayload
 
 	if err := utils.ParseJSON(c, &payload); err != nil {
-		log.Println("hi")
+		log.Println("hi5")
 		return utils.WriteError(c, fiber.StatusBadRequest, err)
-		
 	}
 	if err := utils.Validate.Struct(payload); err != nil {
 		errors := err.(validator.ValidationErrors)
@@ -29,15 +28,18 @@ func (h *Handler) HandleRegister(c *fiber.Ctx) error{
 	}
 	existingUser, err := h.store.GetUserByUserName(payload.UserName)
 	if err == nil && existingUser != nil {
+		log.Println("h3i")
 		return utils.WriteError(c, fiber.StatusBadRequest, fmt.Errorf("user with email %s already exists", payload.UserName))
 	}
 	if err != nil && err != mongo.ErrNoDocuments {
+		log.Println("h2i")
 		return utils.WriteError(c, fiber.StatusInternalServerError, err)
 	}
 
 
 	hashedPassword, err := auth.HashPassword(payload.Password)
 	if err != nil {
+		log.Println("hi1")
 		return utils.WriteError(c, fiber.StatusInternalServerError, err)
 	}
 
@@ -50,10 +52,12 @@ func (h *Handler) HandleRegister(c *fiber.Ctx) error{
 
 
 	if err := h.store.CreateUser(&user); err != nil {
+		log.Println("hi8")
 		return utils.WriteError(c, fiber.StatusInternalServerError, err)
 	}
 
 	if err := h.store.SeedQuestionsForUser(c.Context(),user.ID); err != nil {
+		log.Println("hi95")
 		return utils.WriteError(c, fiber.StatusInternalServerError, fmt.Errorf("failed to seed questions for user: %v", err))
 	}
 

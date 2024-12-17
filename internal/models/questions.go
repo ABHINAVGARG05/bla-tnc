@@ -2,16 +2,18 @@ package models
 
 import "go.mongodb.org/mongo-driver/bson/primitive"
 
-
 type Question struct {
 	QuestionImage string `bson:"question_image"`
 	Question      string `bson:"question"`
 	QuestionId    int    `bson:"question_id"`
-	Answer        string `bson:"answer"`
+	OptionA      string `bson:"optionA"`
+	OptionB      string `bson:"optionB"`
+	OptionC      string `bson:"optionC"`
+	OptionD      string `bson:"optionD"`
+	Answer		  string `bson:"answer"`
 	Room          string `bson:"room"`
 	Answered      string `bson:"answered"`
 }
-
 
 type Room struct {
 	Questions []Question `bson:"questions"`

@@ -17,8 +17,8 @@ import (
 
 var Validate = validator.New()
 
-func ParseJSON(r *fiber.Ctx,payload any)error{
-	if len(r.Body())==0{
+func ParseJSON(r *fiber.Ctx, payload any) error {
+	if len(r.Body()) == 0 {
 		return fmt.Errorf("missing request body")
 	}
 	return r.BodyParser(payload)
@@ -27,7 +27,6 @@ func ParseJSON(r *fiber.Ctx,payload any)error{
 func WriteJSON(r *fiber.Ctx, status int, v any) error {
 	return r.Status(status).JSON(v)
 }
-
 
 func WriteError(r *fiber.Ctx, status int, err error) error {
 	// WriteJSON(r, status, map[string]string{"error": err.Error()})
@@ -53,15 +52,18 @@ func GetTokenFromRequest(c *fiber.Ctx) string {
 	return parts[1]
 }
 
-
 type Question struct {
-	Question   string `yaml:"question"`   
-	QuestionId int    `yaml:"question_id"`
-	Answer     string `yaml:"answer"`     
-	Room       string `yaml:"room"`       
-	Answered   bool   `yaml:"answered"`    
+	Question_Image string `yaml:"question_image"`
+	Question       string `yaml:"question"`
+	QuestionId     int    `yaml:"question_id"`
+	OptionA        string `yaml:"optionA"`
+	OptionB        string `yaml:"optionB"`
+	OptionC        string `yaml:"optionC"`
+	OptionD        string `yaml:"optionD"`
+	Answer         string `yaml:"answer"`
+	Room           string `yaml:"room"`
+	Answered       string `yaml:"answered"`
 }
-
 type AnswerData struct {
 	Questions []Question `yaml:"questions"`
 }
@@ -74,24 +76,24 @@ type Location struct {
 	Location string `yaml:"location"`
 }
 
-func LoadAnswers(filePath string) (AnswerData,error){
+func LoadAnswers(filePath string) (AnswerData, error) {
 	var data AnswerData
 
 	file, err := os.ReadFile(filePath)
 
-	if err !=nil {
-		return data, fmt.Errorf("error reading file; %v",err)
+	if err != nil {
+		return data, fmt.Errorf("error reading file; %v", err)
 	}
 
-	if err := yaml.Unmarshal(file,&data);err!=nil{
-		return data, fmt.Errorf("error unmarshalling yaml: %v",err)
+	if err := yaml.Unmarshal(file, &data); err != nil {
+		return data, fmt.Errorf("error unmarshalling yaml: %v", err)
 	}
 
 	for _, q := range data.Questions {
-		log.Printf("Loaded answer from file - Question ID: %d, Question: %v, Answer: %s", q.QuestionId,q.Question, q.Answer)
+		log.Printf("Loaded answer from file - Question ID: %d, Question: %v, Answer: %s", q.QuestionId, q.Question, q.Answer)
 	}
 
-	return data,nil
+	return data, nil
 }
 
 func LoadLocations(filePath string) ([]string, error) {
@@ -115,8 +117,6 @@ func LoadLocations(filePath string) ([]string, error) {
 	return locations, nil
 }
 
-
-
 func GetRandomLocation(locations []string) string {
 	r := rand.New(rand.NewSource(time.Now().UnixNano()))
 	r.Shuffle(len(locations), func(i, j int) {
@@ -125,5 +125,5 @@ func GetRandomLocation(locations []string) string {
 	if len(locations) > 0 {
 		return locations[0]
 	}
-	return "" 
+	return ""
 }

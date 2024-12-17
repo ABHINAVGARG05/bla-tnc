@@ -1,7 +1,7 @@
 questions:
-  - question: "The criminal intercepted a message that was encoded. Your mission is to restore the message and reveal the true content to continue. Eg - Input : 106 101 119 101 108 108 101 114 121 "
+  - question: "TWhich query retrieves books published before the year 1990?"
     question_id: 1
-    answer: "jewellery"
+    answer: "B"
     room: "A"
     answered: false
   - question: "The criminal intercepted a message that was encoded. Your mission is to restore the message and reveal the true content to continue. Eg - Input : 19 21 19 16 5 3 20 "
@@ -24,9 +24,14 @@ questions:
     answer: "56370"
     room: "A"
     answered: false
-  - question: "A woman discovers a cryptic string, tRAx bJlM, at the crime scene. Believing it to be a passkey to a locked box, she suspects the box contains the killer's name. How can she decipher the string to unlock the box?(key to solving the mystery lies in its uppercase letters, think like numbers). Hint :- Take each UpperCase value to 1 and LowerCase value to 0 and find the binary number "
-    question_id: 7
-    answer: "103"
+  question_id: 7
+    question_image: ""
+    question: "Which query retrieves the average price of all books?"
+    optionA: "A. SELECT AVG(Price) FROM Books"
+    optionB: "B. SELECT SUM(Price) FROM Books"
+    optionC: "C. SELECT COUNT(Price) FROM Books"
+    optionD: "D. SELECT * FROM Books WHERE Price > 10"
+    answer: "A. SELECT AVG(Price) FROM Books"
     room: "A"
     answered: false
   - question: "A cryptic string COdeToSurV1ve is left behind after a heist. To uncover the mastermind's identity,Convert each uppercase and lowercase letter in the string to its corresponding `hexadecimal value ,Sum the hexadecimal values together to obtain a single number,Multiply the sum by 2 and add 388,the resulting number satisfies the property where the sum of each digit raised to the power of the number of digits equals the number itself, it's the special number. This special number is the mastermind's id ? What is the ID ?(if the hex value is of 5A , 5B , 5C , 5D ,5E ,5F then leave them ) "

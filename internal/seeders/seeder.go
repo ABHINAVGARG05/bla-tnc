@@ -15,8 +15,13 @@ import (
 )
 
 type QuestionYAML struct {
+	Question_Image string `yaml:"question_image"`
 	Question string `yaml:"question"`
 	QuestionId int `yaml:"question_id"`
+	OptionA      string `yaml:"optionA"`
+	OptionB      string `yaml:"optionB"`
+	OptionC      string `yaml:"optionC"`
+	OptionD      string `yaml:"optionD"`
 	Answer   string `yaml:"answer"`
 	Room     string `yaml:"room"`
 	Answered string   `yaml:"answered"`
@@ -57,8 +62,13 @@ func SeedQuestions(ctx context.Context, db *mongo.Database, userID primitive.Obj
 
 	for _, q := range questionsYAML.Questions {
 		question := models.Question{
+			QuestionImage: q.Question_Image,
 			Question: q.Question,
 			QuestionId: q.QuestionId,
+			OptionA: q.OptionA,
+			OptionB: q.OptionB,
+			OptionC: q.OptionC,
+			OptionD: q.OptionD,
 			Answer:   q.Answer,
 			Room:     q.Room,
 			Answered: q.Answered,
