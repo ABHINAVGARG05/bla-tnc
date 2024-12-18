@@ -6,7 +6,7 @@ import (
 	"C2S/internal/types"
 	"C2S/internal/utils"
 	"fmt"
-	//"strings"
+	"strings"
 
 	"github.com/gofiber/fiber/v2"
 	"go.mongodb.org/mongo-driver/bson/primitive"
@@ -34,10 +34,10 @@ func (h *Handler) HandleGetQuestion(c *fiber.Ctx) error {
 	fmt.Printf("Received request to get next question for user ID: %s\n", userID.Hex())
 	question, err := h.store.GetNextQuestion(c.Context(), userID)
 	if err != nil {
-		// if strings.HasPrefix(err.Error(), "clue:") {
-		// 	return utils.WriteJSON(c, fiber.StatusOK, fiber.Map{"message": err.Error()})
-		// }
-		//fmt.Printf("Error fetching next question: %v\n", err)
+		if strings.HasPrefix(err.Error(), "clue:") {
+			return utils.WriteJSON(c, fiber.StatusOK, fiber.Map{"message": err.Error()})
+		}
+		fmt.Printf("Error fetching next question: %v\n", err)
 		if err.Error() == "user is not in any room" {
 			return utils.WriteError(c, fiber.StatusBadRequest, fmt.Errorf("user is not in any room"))
 		}
@@ -75,8 +75,8 @@ func (h *Handler) HandlePostAnswer(c *fiber.Ctx) error {
 		if err != nil {
 			fmt.Printf("Error submitting answer: %v\n", err)
 			if err.Error() == "incorrect answer" {
-				return utils.WriteJSON(c, fiber.StatusOK, fiber.Map{"message": "Incorrect Answer submitted successfully"})
-				//return utils.WriteError(c, fiber.StatusBadRequest, fmt.Errorf("incorrect answer"))
+				//return utils.WriteJSON(c, fiber.StatusOK, fiber.Map{"message": "Incorrect Answer submitted successfully"})
+				return utils.WriteError(c, fiber.StatusBadRequest, fmt.Errorf("incorrect answer"))
 			}
 			if err.Error() == "question already answered or not found" {
 				return utils.WriteError(c, fiber.StatusBadRequest, fmt.Errorf("question already answered or not found"))
