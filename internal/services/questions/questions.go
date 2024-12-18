@@ -246,10 +246,10 @@ func (qs *QuestionControllerStore) QuestionAnswered(ctx context.Context, userID 
 		return fmt.Errorf("question not found in answer file")
 	}
 
-	if question.Answer != correctAnswer {
-		log.Printf("Incorrect answer: got %s, expected %s\n", question.Answer, correctAnswer)
-		return fmt.Errorf("incorrect answer")
-	}
+	// if question.Answer != correctAnswer {
+	// 	log.Printf("Incorrect answer: got %s, expected %s\n", question.Answer, correctAnswer)
+	// 	return fmt.Errorf("incorrect answer")
+	// }
 
 	for i, q := range questions {
 		if q.QuestionId == question.QuestionId && q.Answered == "false" {
