@@ -105,6 +105,18 @@ func (rc *RoomControllerStore) EscapeRoom(ctx context.Context, userID primitive.
 		return fmt.Errorf("failed to update room give up: %v", err)
 	}
 	}
+	if roomIsDone {
+		if err := rc.CheckUnansweredQuestionsAndUpdateScore(ctx, userID, roomEntered); err != nil {
+			return err
+		}
+			
+	update := bson.M{"$set": bson.M{roomGiveUpField: true,roomDoneField:true}}
+
+	_, err = rc.roomsCollection.UpdateOne(ctx, bson.M{"user_id": userID}, update)
+	if err != nil {
+		return fmt.Errorf("failed to update room give up: %v", err)
+	}
+	}
 
 	_, err = rc.usersCollection.UpdateOne(ctx, bson.M{"_id": userID}, bson.M{"$set": bson.M{"room_entered": ""}})
 	if err != nil {
