@@ -21,7 +21,7 @@ questions:
     room: "B"
     answered: "false"
 
-  question_id: 3
+  - question_id: 3
     question_image: "https://res.cloudinary.com/abhi-server/image/upload/v1734463271/Screenshot_2024-12-18_005101_pvtkyt.png"
     question: "Which SQL query joins the Books table with the Authors table to display book names along with their authors?"
     optionA: "A. SELECT Books.Book_Name, Authors.Author_Name FROM Books INNER JOIN Authors ON Books.Author_ID = Authors.Author_ID"
@@ -32,7 +32,7 @@ questions:
     room: "C"
     answered: "false"
 
-  question_id: 4
+  - question_id: 4
     question_image: "https://res.cloudinary.com/abhi-server/image/upload/v1734463308/Screenshot_2024-12-18_005138_d1jtif.png"
     question: "Which query sums up all copies sold in the 'USA'?"
     optionA: "A. SELECT * FROM Sales WHERE Region = 'USA'"
