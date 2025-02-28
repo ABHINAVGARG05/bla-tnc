@@ -4,13 +4,15 @@ import "go.mongodb.org/mongo-driver/bson/primitive"
 
 type Question struct {
 	QuestionImage string `bson:"question_image"`
+	AudioFile     string `bson:"audio_file"`
+	TextFile      string `bson:"text_file"`
 	Question      string `bson:"question"`
 	QuestionId    int    `bson:"question_id"`
-	OptionA      string `bson:"optionA"`
-	OptionB      string `bson:"optionB"`
-	OptionC      string `bson:"optionC"`
-	OptionD      string `bson:"optionD"`
-	Answer		  string `bson:"answer"`
+	OptionA       string `bson:"optionA"`
+	OptionB       string `bson:"optionB"`
+	OptionC       string `bson:"optionC"`
+	OptionD       string `bson:"optionD"`
+	Answer        string `bson:"answer"`
 	Room          string `bson:"room"`
 	Answered      string `bson:"answered"`
 }

@@ -54,6 +54,8 @@ func GetTokenFromRequest(c *fiber.Ctx) string {
 
 type Question struct {
 	Question_Image string `yaml:"question_image"`
+	Audio_File     string `yaml:"audio_file"`
+	Text_File      string `yaml:text_file"`
 	Question       string `yaml:"question"`
 	QuestionId     int    `yaml:"question_id"`
 	OptionA        string `yaml:"optionA"`
